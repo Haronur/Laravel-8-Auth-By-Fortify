@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c15ac8034eb7e137b3b9f5b5240c26af",
+    "content-hash": "86d64d81791ff5e11aae2188ffd910ad",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2498,6 +2498,56 @@
                 }
             ],
             "time": "2020-08-18T17:17:46+00:00"
+        },
+        {
+            "name": "revolution/fortify-bootstrap4",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kawax/fortify-bootstrap4.git",
+                "reference": "5dedd225b96b60a7ae0303c7e2dbf160d76d5b06"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kawax/fortify-bootstrap4/zipball/5dedd225b96b60a7ae0303c7e2dbf160d76d5b06",
+                "reference": "5dedd225b96b60a7ae0303c7e2dbf160d76d5b06",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "^8.0",
+                "laravel/fortify": "^1.4",
+                "php": "^7.3||^8.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Revolution\\Fortify\\Bootstrap4\\Bootstrap4ServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Revolution\\Fortify\\Bootstrap4\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "kawax",
+                    "email": "kawaxbiz@gmail.com"
+                }
+            ],
+            "description": "Laravel Fortify views for Bootstrap4",
+            "keywords": [
+                "bootstrap",
+                "fortify",
+                "laravel"
+            ],
+            "time": "2020-09-27T01:05:32+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",

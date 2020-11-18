@@ -98,3 +98,8 @@ php artisan migrate
 ```
 
 ## Follow This Instruction:  https://github.com/laravel/fortify
+
+
+## -- Fortify-Integration 02 - Fortify views for Bootstrap 4
+ 
+ #### follow this instruction: https://github.com/kawax/fortify-bootstrap4 
